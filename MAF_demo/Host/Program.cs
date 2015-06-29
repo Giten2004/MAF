@@ -8,30 +8,8 @@
 
 
 using System;
-
-using System.Collections.Generic;
-
-using System.Linq;
-
-using System.Text;
-
-
-
-
-
-using System.Collections;
-
 using System.Collections.ObjectModel;
-
-
-
 using System.AddIn.Hosting;
-
-
-
-using HostSideView;
-
-
 
 namespace Host
 {
@@ -68,8 +46,7 @@ namespace Host
 
             //隔离和激活插件
 
-            AddInProcess process = new AddInProcess(Platform.X64);
-
+            AddInProcess process = new AddInProcess();//(Platform.X64);
             process.Start();
 
             var addin = token.Activate<HostSideView.HostSideView>(process, AddInSecurityLevel.FullTrust);
@@ -95,7 +72,6 @@ namespace Host
             Console.WriteLine("Available Calculators: ");
 
             // Show the token properties for each token in the AddInToken collection 
-
             // (tokens), preceded by the add-in number in [] brackets.
 
             int tokNumber = 1;

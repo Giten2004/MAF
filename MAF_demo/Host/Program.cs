@@ -10,6 +10,8 @@
 using System;
 using System.Collections.ObjectModel;
 using System.AddIn.Hosting;
+using System.Collections.Generic;
+using System.IO;
 
 namespace Host
 {
@@ -20,17 +22,17 @@ namespace Host
     {
         static void Main(string[] args)
         {
+            //Init pipline, create PipelineSegments.store and AddIns.store
             string path = Environment.CurrentDirectory;
-            AddInStore.Rebuild(path);
+            AddInStore.Update(path);
 
-            string[] warnings = AddInStore.Update(path);
+            //string[] warnings = AddInStore.Update(path);
+            //foreach (var tmp in warnings)
+            //{
+            //    Console.WriteLine(tmp);
+            //}
 
-            foreach (var tmp in warnings)
-            {
-                Console.WriteLine(tmp);
-            }
-
-            //发现
+            //发现, used the host side view(without attribute)
             var tokens = AddInStore.FindAddIns(typeof(HostSideView.HostSideView), path);
             Console.WriteLine("当前共有{0}个插件可以选择。它们分别为：", tokens.Count);
 
@@ -39,6 +41,14 @@ namespace Host
             {
                 Console.WriteLine(string.Format("[{4}]名称：{0}，描述：{1}，版本：{2}，发布者：{3}", tmp.Name, tmp.Description, tmp.Version, tmp.Publisher, index++));
             }
+
+            //[[ find addin in the another folder
+            string anotherAddInPath = @"C:\OutPutForAddIn\Test";
+            AddInStore.RebuildAddIns(anotherAddInPath);
+
+            //todo: why there find the addin in the fist folder????
+            IList<AddInToken> PluginList = AddInStore.FindAddIns(typeof(HostSideView.HostSideView), PipelineStoreLocation.ApplicationBase, anotherAddInPath);
+            //]]
 
             var token = ChooseCalculator(tokens);
 

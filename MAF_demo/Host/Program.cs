@@ -32,11 +32,9 @@ namespace Host
 
             //发现
             var tokens = AddInStore.FindAddIns(typeof(HostSideView.HostSideView), path);
-
             Console.WriteLine("当前共有{0}个插件可以选择。它们分别为：", tokens.Count);
 
             var index = 1;
-
             foreach (var tmp in tokens)
             {
                 Console.WriteLine(string.Format("[{4}]名称：{0}，描述：{1}，版本：{2}，发布者：{3}", tmp.Name, tmp.Description, tmp.Version, tmp.Publisher, index++));
@@ -45,7 +43,6 @@ namespace Host
             var token = ChooseCalculator(tokens);
 
             //隔离和激活插件
-
             AddInProcess process = new AddInProcess();//(Platform.X64);
             process.Start();
 
@@ -54,7 +51,6 @@ namespace Host
             Console.WriteLine("PID:{0}", process.ProcessId);
 
             //调用插件
-
             Console.WriteLine(addin.Say());
 
             Console.ReadKey();

@@ -8,43 +8,28 @@
  */
 
 
-
-using System;
-
-using System.Collections.Generic;
-
-using System.Linq;
-
-using System.Text;
-
-
-
 using System.AddIn.Pipeline;
+using IContract;
 
 namespace HostSideAdapter
 {
-
-    [HostAdapter()]
+    [HostAdapter]
     public class HostSideAdapter : HostSideView.HostSideView
     {
-        private IContract.IMyContract _contract;
-        
         //这行代码重要
-        private System.AddIn.Pipeline.ContractHandle _handle;
+        private ContractHandle _handle;
+        private readonly IMyContract _contract;
 
-        public HostSideAdapter(IContract.IMyContract contract)
+        public HostSideAdapter(IMyContract contract)
         {
-            this._contract = contract;
+            _contract = contract;
 
-            this._handle = new ContractHandle(contract);
+            _handle = new ContractHandle(contract);
         }
 
         public string Say()
         {
-            return this._contract.Say();
+            return _contract.Say();
         }
     }
-
 }
-
-

@@ -8,25 +8,10 @@
 
  */
 
-using System;
-
-using System.Collections.Generic;
-
-using System.Linq;
-
-using System.Text;
-
-
-
 using System.AddIn;
-
-using System.AddIn.Pipeline;
-
-
 
 namespace Addin_1
 {
-
     [AddIn("Helloworld", Description = "this is helloworld addin", Publisher = "GhostBear", Version = "1.0")]
     public class Addin_1 : AddinSideView.AddinSideView
     {
@@ -36,4 +21,3 @@ namespace Addin_1
         }
     }
 }
-

@@ -1,0 +1,5 @@
+E:\CodeLab\GitHub\MAF\MAF_demo\OutPut\AddInSideAdapters\AddinSideAdapter.dll
+E:\CodeLab\GitHub\MAF\MAF_demo\OutPut\AddInSideAdapters\AddinSideAdapter.pdb
+E:\CodeLab\GitHub\MAF\MAF_demo\AddinSideAdapter\obj\Debug\AddinSideAdapter.csprojResolveAssemblyReference.cache
+E:\CodeLab\GitHub\MAF\MAF_demo\AddinSideAdapter\obj\Debug\AddinSideAdapter.dll
+E:\CodeLab\GitHub\MAF\MAF_demo\AddinSideAdapter\obj\Debug\AddinSideAdapter.pdb

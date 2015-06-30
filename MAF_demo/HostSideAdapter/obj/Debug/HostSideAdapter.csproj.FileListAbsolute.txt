@@ -1,0 +1,5 @@
+E:\CodeLab\GitHub\MAF\MAF_demo\OutPut\HostSideAdapters\HostSideAdapter.dll
+E:\CodeLab\GitHub\MAF\MAF_demo\OutPut\HostSideAdapters\HostSideAdapter.pdb
+E:\CodeLab\GitHub\MAF\MAF_demo\HostSideAdapter\obj\Debug\HostSideAdapter.csprojResolveAssemblyReference.cache
+E:\CodeLab\GitHub\MAF\MAF_demo\HostSideAdapter\obj\Debug\HostSideAdapter.dll
+E:\CodeLab\GitHub\MAF\MAF_demo\HostSideAdapter\obj\Debug\HostSideAdapter.pdb

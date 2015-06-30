@@ -9,34 +9,13 @@
  */
 
 
-
-using System;
-
-using System.Collections.Generic;
-
-using System.Linq;
-
-using System.Text;
-
-
-
 using System.AddIn.Pipeline;
-
-using System.AddIn.Contract;
-
-
 
 namespace IContract
 {
-
     [AddInContract]
     public interface IMyContract : System.AddIn.Contract.IContract
     {
-
         string Say();
-
     }
-
 }
-
-

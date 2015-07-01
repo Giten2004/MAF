@@ -3,6 +3,8 @@
 
 2) http://www.cnblogs.com/zgynhqf/archive/2009/11/21/1607733.html
 
+3) http://www.cnblogs.com/huihui0630/archive/2010/06/30/1768387.html
+
 # MAF
 MAF demo, microsoft have more detail demos on codeplex
 

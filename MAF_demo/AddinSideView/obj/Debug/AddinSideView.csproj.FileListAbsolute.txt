@@ -1,5 +1,0 @@
-E:\CodeLab\GitHub\MAF\MAF_demo\OutPut\AddInViews\AddinSideView.dll
-E:\CodeLab\GitHub\MAF\MAF_demo\OutPut\AddInViews\AddinSideView.pdb
-E:\CodeLab\GitHub\MAF\MAF_demo\AddinSideView\obj\Debug\AddinSideView.csprojResolveAssemblyReference.cache
-E:\CodeLab\GitHub\MAF\MAF_demo\AddinSideView\obj\Debug\AddinSideView.dll
-E:\CodeLab\GitHub\MAF\MAF_demo\AddinSideView\obj\Debug\AddinSideView.pdb

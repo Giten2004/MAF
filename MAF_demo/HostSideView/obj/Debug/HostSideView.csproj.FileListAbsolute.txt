@@ -1,5 +1,0 @@
-E:\CodeLab\GitHub\MAF\MAF_demo\HostSideView\bin\Debug\HostSideView.dll
-E:\CodeLab\GitHub\MAF\MAF_demo\HostSideView\bin\Debug\HostSideView.pdb
-E:\CodeLab\GitHub\MAF\MAF_demo\HostSideView\obj\Debug\HostSideView.csprojResolveAssemblyReference.cache
-E:\CodeLab\GitHub\MAF\MAF_demo\HostSideView\obj\Debug\HostSideView.dll
-E:\CodeLab\GitHub\MAF\MAF_demo\HostSideView\obj\Debug\HostSideView.pdb

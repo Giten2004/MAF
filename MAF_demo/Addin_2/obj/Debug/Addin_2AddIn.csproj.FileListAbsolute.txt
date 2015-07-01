@@ -1,5 +1,0 @@
-E:\CodeLab\GitHub\MAF\MAF_demo\OutPut\AddIns\Addin_2\Addin_2AddIn.dll
-E:\CodeLab\GitHub\MAF\MAF_demo\OutPut\AddIns\Addin_2\Addin_2AddIn.pdb
-E:\CodeLab\GitHub\MAF\MAF_demo\Addin_2\obj\Debug\Addin_2AddIn.csprojResolveAssemblyReference.cache
-E:\CodeLab\GitHub\MAF\MAF_demo\Addin_2\obj\Debug\Addin_2AddIn.dll
-E:\CodeLab\GitHub\MAF\MAF_demo\Addin_2\obj\Debug\Addin_2AddIn.pdb

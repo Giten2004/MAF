@@ -1,5 +1,0 @@
-E:\CodeLab\GitHub\MAF\MAF_demo\OutPut\Contracts\IContract.dll
-E:\CodeLab\GitHub\MAF\MAF_demo\OutPut\Contracts\IContract.pdb
-E:\CodeLab\GitHub\MAF\MAF_demo\IContract\obj\Debug\IContract.csprojResolveAssemblyReference.cache
-E:\CodeLab\GitHub\MAF\MAF_demo\IContract\obj\Debug\IContract.dll
-E:\CodeLab\GitHub\MAF\MAF_demo\IContract\obj\Debug\IContract.pdb

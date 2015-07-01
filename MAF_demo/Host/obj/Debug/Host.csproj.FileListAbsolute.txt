@@ -1,5 +1,0 @@
-E:\CodeLab\GitHub\MAF\MAF_demo\OutPut\Host.exe
-E:\CodeLab\GitHub\MAF\MAF_demo\OutPut\Host.pdb
-E:\CodeLab\GitHub\MAF\MAF_demo\Host\obj\Debug\Host.csprojResolveAssemblyReference.cache
-E:\CodeLab\GitHub\MAF\MAF_demo\Host\obj\Debug\Host.exe
-E:\CodeLab\GitHub\MAF\MAF_demo\Host\obj\Debug\Host.pdb

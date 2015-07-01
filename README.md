@@ -1,3 +1,6 @@
+#Add-ins and Extensibility
+https://msdn.microsoft.com/en-us/library/bb384200(v=vs.110).aspx
+
 # MAF
 MAF demo, microsoft have more detail demos on codeplex
 
